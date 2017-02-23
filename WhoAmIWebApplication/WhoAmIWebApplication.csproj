@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="choco\my-application.nuspec" />
+    <Content Include="choco\whoami.nuspec" />
     <Content Include="app-metadata\app.yaml" />
     <None Include="Properties\PublishProfiles\Default.pubxml" />
     <None Include="Web.Debug.config">
