@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- About "id" tag: Use only lowercase letters, replace the spaces with the hyphen-minus character “-” (U+002D) or just omit them. Don’t use dots.-->
+    <id>whoami</id>
+    <title>Who Am I Web Load Balancer Tester</title>
+    <version>1.0.0</version>
+    <authors>buy4</authors>
+    <owners>buy4</owners>
+    <summary>Dumb whoami web app to test web load balancer.</summary>
+    <tags>admin</tags>
+    <copyright>Buy4</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Testing setParameters with msdeploy and env vars.</releaseNotes>
+	<dependencies>
+		<dependency id="poweryaml" version="1.0.3" />
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="..\WebDeployPackage\**" target="tools" />
+    <!-- Files needed to generate package with supported installation scripts from cd pipeline. -->
+    <file src="pipeline-output\chocolateyinstall.ps1" target="tools" />
+    <file src="pipeline-output\chocolateyuninstall.ps1" target="tools" />
+    <file src="pipeline-output\chocolateyBeforeModify.ps1" target="tools" />
+    <file src="..\app-metadata\app.yaml" target="tools" />
+  </files>
+</package>

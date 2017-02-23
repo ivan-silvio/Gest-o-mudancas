@@ -1,0 +1,44 @@
+# doc: Informações sobre empacotamento da aplicação.
+package: 
+    # doc: Informações sobre empacotamento no formato chocolatey.
+    chocolatey-package: 
+        # doc: Modo de instalação da aplicação, valores possiveis: iis-site OU winservice.
+        install-mode: 'iis-site'
+        # doc: Informações sobre instalação de aplicação para IIS.
+        iis-site:
+            # doc: Nome do site a ser criado no IIS.
+            name: 'WhoAmI'
+            # doc: (Opcional) Arquivo de parâmetros do webdeploy, pode ser usado para fornecer o nome do website, o campo 'name' tem precedência sobre este.
+            #webdeploy-setparameter-file: 'HelloWorld.Owin.SetParameters.xml'
+            # doc: (Opcional, default é http) Protocolos a serem habilitados no site no iis.
+            #enabled-protocols:
+             #   - http
+             #   - net.tcp
+            # doc: (Opcional, default é http *:80:localhost) Bindings do site no iis seguindo o padrão bindingInformation da configuração do IIS.
+            bindings:
+                - http: '*:299:localhost'
+             #   - net.tcp: '*:808:localhost'
+            # doc: (Opcional) Argumentos a serem passados para o msdeploy.
+            #msdeploy:
+                # doc: (Opcional) Parâmetro /skip do msdeploy. Este Argumento é ignorado por padrão, para que ele seja passado para o msdeploy o parâmetro "/skipfiles" deve ser 
+                # doc: passado para o chocolatey ex: choco install mypackage -packageParameters /skipfiles
+            #    skip: 'File=web.config'
+
+        # doc: Informações sobre instalação de serviço windows.
+        #windows-service:
+            # doc: Nome do serviço windows.
+         #   name: 'Buy4.ChocoHelloWorldApp'
+            # doc: Linha de comando para instalação do serviço.
+         #   install-command: 'ChocoHelloWorldApp.exe --install'
+            # doc: (Opcional) Linha de comando para remoção do serviço.
+         #   uninstall-command: 'ChocoHelloWorldApp.exe --uninstall'
+            # doc: (Opcional) Arquivos a serem ignorados durante a instalação. Este Argumento é ignorado por padrão, para que ele tenha efeito o parâmetro "/skipfiles" deve ser 
+            # doc: passado para o chocolatey. ex: choco install mypackage -packageParameters /skipfiles
+         #   skip-files: '*.exe.config'
+            # doc: (Opcional) Identidade sob qual o serviço irá executar. A senha da conta deve ser fornecida no momento da instalação do pacote através do parâmetro
+            # doc: ServiceAccountPassword ex: choco install mypackage -packageParameters /ServiceAccountPassword:mypassword
+         #   service-account: '.\app_user'
+        # doc: (Opcional) Comando netsh a ser executado na instalação do pacote.
+        #netsh:
+            # doc: (Opcional) Regra de url acl a ser adicionada no netsh, importante se o serviço não for executar sob privilégio de administrador.
+         #   add-urlacl: 'url=http://+:212/ user=.\app_user'
