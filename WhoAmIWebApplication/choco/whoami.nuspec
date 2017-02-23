@@ -8,6 +8,7 @@
     <authors>buy4</authors>
     <owners>buy4</owners>
     <summary>Dumb whoami web app to test web load balancer.</summary>
+    <description>Dumb whoami web app to test web load balancer.</description>
     <tags>admin</tags>
     <copyright>Buy4</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
