@@ -16,7 +16,7 @@ package:
              #   - net.tcp
             # doc: (Opcional, default é http *:80:localhost) Bindings do site no iis seguindo o padrão bindingInformation da configuração do IIS.
             bindings:
-                - http: '*:299'
+                - http: '*:299:'
              #   - net.tcp: '*:808:localhost'
             # doc: (Opcional) Argumentos a serem passados para o msdeploy.
             #msdeploy:
