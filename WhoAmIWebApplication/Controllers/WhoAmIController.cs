@@ -14,7 +14,7 @@ namespace WhoAmIWebApplication.Controllers
         [HttpGet]
         public string Get()
         {
-            string response = $"{Environment.MachineName} - v4";
+            string response = Environment.MachineName;
             return response;
         }
     }
