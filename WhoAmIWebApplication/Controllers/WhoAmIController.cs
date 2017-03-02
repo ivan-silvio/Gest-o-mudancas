@@ -14,8 +14,9 @@ namespace WhoAmIWebApplication.Controllers
         [HttpGet]
         public string Get()
         {
-            string response = Environment.MachineName;
-            return response;
+            string userIdentity = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+            string hostName = Environment.MachineName;
+            return $"{userIdentity}@{hostName}";
         }
     }
 }
