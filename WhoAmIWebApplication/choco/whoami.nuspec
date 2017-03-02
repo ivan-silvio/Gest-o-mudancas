@@ -15,6 +15,7 @@
     <releaseNotes>Testing setParameters with msdeploy and env vars.</releaseNotes>
 	<dependencies>
 		<dependency id="poweryaml" version="1.0.3" />
+    <dependency id="webdeploy" version="3.5.2" />
 	</dependencies>
   </metadata>
   <files>
