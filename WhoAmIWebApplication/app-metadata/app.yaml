@@ -43,3 +43,4 @@ package:
             # doc: (Opcional) Regra de url acl a ser adicionada no netsh, importante se o serviço não for executar sob privilégio de administrador.
         encrypt-sections:
            - connectionStrings
+           - "ConfigurationProvider/StaticConfiguration/HueHue"
