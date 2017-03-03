@@ -12,6 +12,11 @@ namespace WhoAmIWebApplication.Controllers
     [RoutePrefix("api/settings")]
     public class SettingsController : ApiController
     {
+        public class ConfigurationHueHue
+        {
+            public string Name { get; set; }
+        }
+
 
         [HttpGet]
         [Route("appsettings/{key}")]
@@ -19,6 +24,22 @@ namespace WhoAmIWebApplication.Controllers
         {
             string value = ConfigurationManager.AppSettings[key];
             return value;
+        }
+
+        [HttpGet]
+        [Route("provider")]
+        public string GetProviderSettings()
+        {
+            try
+            {
+                ConfigurationHueHue config = Dlp.Buy4.Infrastructure.ConfigurationProvider.Load<ConfigurationHueHue>("HueHue");
+                string value = config?.Name;
+                return value;
+            }
+            catch (Exception e)
+            {
+                return e.ToString();
+            }
         }
 
         [HttpGet]
