@@ -12,8 +12,8 @@ package:
             #webdeploy-setparameter-file: 'HelloWorld.Owin.SetParameters.xml'
             # doc: (Opcional, default é http) Protocolos a serem habilitados no site no iis.
             #enabled-protocols:
-             #   - http
-             #   - net.tcp
+               #- http
+               #- net.tcp
             # doc: (Opcional, default é http *:80:localhost) Bindings do site no iis seguindo o padrão bindingInformation da configuração do IIS.
             bindings:
                 - http: '*:80:'
@@ -41,4 +41,5 @@ package:
         # doc: (Opcional) Comando netsh a ser executado na instalação do pacote.
         #netsh:
             # doc: (Opcional) Regra de url acl a ser adicionada no netsh, importante se o serviço não for executar sob privilégio de administrador.
-         #   add-urlacl: 'url=http://+:212/ user=.\app_user'
+        encrypt-sections:
+           - connectionStrings
