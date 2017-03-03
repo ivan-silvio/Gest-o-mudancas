@@ -9,13 +9,23 @@ using System.Web.Http;
 
 namespace WhoAmIWebApplication.Controllers
 {
+    [RoutePrefix("api/settings")]
     public class SettingsController : ApiController
     {
 
         [HttpGet]
-        public string GetSettings()
+        [Route("appsettings/{key}")]
+        public string GetAppSettings(string key)
         {
-            string value = ConfigurationManager.AppSettings["MySetting"];
+            string value = ConfigurationManager.AppSettings[key];
+            return value;
+        }
+
+        [HttpGet]
+        [Route("connstring/{name}")]
+        public string GetConnString(string name)
+        {
+            string value = ConfigurationManager.ConnectionStrings[name]?.ConnectionString;
             return value;
         }
     }
