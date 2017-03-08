@@ -16,7 +16,8 @@ namespace WhoAmIWebApplication.Controllers
         {
             string userIdentity = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             string hostName = Environment.MachineName;
-            return $"{userIdentity}@{hostName}";
+            string version = "1.0.1";
+            return $"{userIdentity}@{hostName} Version={version}";
         }
     }
 }
