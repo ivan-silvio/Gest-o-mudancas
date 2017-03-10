@@ -7,8 +7,8 @@
     <ProjectGuid>{0F5B9DCA-BA47-410B-90F2-29421681B7FF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MsDeployLabConsole</RootNamespace>
-    <AssemblyName>MsDeployLabConsole</AssemblyName>
+    <RootNamespace>WhoAmIWinService</RootNamespace>
+    <AssemblyName>WhoAmIWinService</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,9 +80,11 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app-metadata\app.yaml" />
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="choco\whoami-winservice.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
