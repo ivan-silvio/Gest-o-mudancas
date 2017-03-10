@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dlp.Buy4.Framework.Utils;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace WhoAmIWebApplication.Controllers
         {
             string userIdentity = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             string hostName = Environment.MachineName;
-            string version = "1.0.1";
+            string version = ProductInfo.Global.Version;
             return $"{userIdentity}@{hostName} Version={version}";
         }
     }
