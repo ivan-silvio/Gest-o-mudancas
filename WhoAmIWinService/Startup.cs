@@ -1,6 +1,9 @@
 ﻿using Dlp.Buy4.Framework.Utils;
 using Owin;
 using System;
+using Dlp.Buy4.Infrastructure.Service.Owin;
+using Dlp.Buy4.Framework.Service.Owin;
+using System.Configuration;
 
 namespace MsDeployLabConsole
 {
@@ -9,14 +12,17 @@ namespace MsDeployLabConsole
         /// <summary>
         /// Application entry point.
         /// </summary>
-        /// <param name="app">Owin application builder.</param>
-        public void Configuration(IAppBuilder app)
+        /// <param name="appBuilder">Owin application builder.</param>
+        public void Configuration(IAppBuilder appBuilder)
         {
+            string url = ConfigurationManager.AppSettings["ListenUrl"];
+            appBuilder.AddListenUrl(url);
+
             // Map requests for the given route.
-            app.Map("/api/whoami", (appBuilder) => {
+            appBuilder.Map("/api/whoami", (appBuilder2) => {
 
                 // Run when receive an request in this endpoint.
-                appBuilder.Run((owinContext) =>
+                appBuilder2.Run((owinContext) =>
                 {
                     try
                     {

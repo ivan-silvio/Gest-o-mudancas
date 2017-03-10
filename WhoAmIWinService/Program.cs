@@ -9,13 +9,8 @@ namespace MsDeployLabConsole
         {
             try
             {
-                //var service = new Dlp.Buy4.Infrastructure.Service.IntegratedWebServiceApplication<Startup>();
-                //service.Run();
-                string url = ConfigurationManager.AppSettings["ListenUrl"];
-                using (var webApp = Microsoft.Owin.Hosting.WebApp.Start(url))
-                {
-                    Console.ReadKey();
-                }
+                var service = new Dlp.Buy4.Infrastructure.Service.IntegratedWebServiceApplication<Startup>();
+                service.Run();
             }
             catch (Exception ex)
             {
