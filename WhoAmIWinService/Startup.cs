@@ -5,7 +5,7 @@ using Dlp.Buy4.Infrastructure.Service.Owin;
 using Dlp.Buy4.Framework.Service.Owin;
 using System.Configuration;
 
-namespace MsDeployLabConsole
+namespace WhoAmIWinService
 {
     public class Startup
     {

@@ -5,4 +5,7 @@
     <parameterEntry kind="XmlFile" scope="\\*.exe.config$" match="/configuration/appSettings/add[@key='MySetting']/@value" />
   </parameter>
 
+  <parameter name="MyDB-Web.config Connection String" description="MyDB SqlServer connString." defaultValue="ValueFromDefault" tags="">
+    <parameterEntry kind="XmlFile" scope="\\*.exe.config$" match="/configuration/connectionStrings/add[@name='MyDB']/@value" />
+  </parameter>
 </parameters>

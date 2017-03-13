@@ -3,7 +3,7 @@ using System;
 using System.ComponentModel;
 using System.Configuration;
 
-namespace MsDeployLabConsole
+namespace WhoAmIWinService
 {
     class Program
     {
