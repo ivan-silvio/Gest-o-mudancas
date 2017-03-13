@@ -27,11 +27,12 @@ package:
         # doc: Informações sobre instalação de serviço windows.
         windows-service:
             # doc: Nome do serviço windows.
-            name: 'WhoAmIWinService'
+            name: 'Buy4.WhoAmIWinService'
             # doc: Linha de comando para instalação do serviço.
             install-command: 'WhoAmIWinService.exe --install'
             # doc: (Opcional) Linha de comando para remoção do serviço.
             uninstall-command: 'WhoAmIWinService.exe --uninstall'
+            use-msdeploy: true
             # doc: (Opcional) Arquivos a serem ignorados durante a instalação. Este Argumento é ignorado por padrão, para que ele tenha efeito o parâmetro "/skipfiles" deve ser 
             # doc: passado para o chocolatey. ex: choco install mypackage -packageParameters /skipfiles
          #   skip-files: '*.exe.config'

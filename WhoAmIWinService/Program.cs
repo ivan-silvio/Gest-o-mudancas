@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Dlp.Buy4.Framework.Service;
+using System;
+using System.ComponentModel;
 using System.Configuration;
 
 namespace MsDeployLabConsole
@@ -19,4 +21,11 @@ namespace MsDeployLabConsole
 
         }
     }
+
+    /// <summary>
+    /// Installer for the program.
+    /// </summary>
+    [RunInstaller(true)]
+    public class ProgramInstaller : ServiceApplicationInstaller { }
+
 }

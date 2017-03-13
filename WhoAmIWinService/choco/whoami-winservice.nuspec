@@ -25,5 +25,6 @@
     <file src="pipeline-output\chocolateyuninstall.ps1" target="tools" />
     <file src="pipeline-output\chocolateyBeforeModify.ps1" target="tools" />
     <file src="..\app-metadata\app.yaml" target="tools" />
+    <file src="..\Parameters.xml" target="tools" />
   </files>
 </package>
