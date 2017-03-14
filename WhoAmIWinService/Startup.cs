@@ -43,6 +43,28 @@ namespace WhoAmIWinService
                     }
                 });
             });
+
+            appBuilder.Map("/api/settings/appsettings", (appBuilder2) => {
+
+                // Run when receive an request in this endpoint.
+                appBuilder2.Run((owinContext) =>
+                {
+                    try
+                    {
+                        string setting = ConfigurationManager.AppSettings["MySetting"];
+
+                        // return 200 Ok.
+                        owinContext.Response.ContentType = "text/plain";
+                        return owinContext.Response.WriteAsync(setting);
+                    }
+                    // Unexpected exception, must return http status code 500.
+                    catch (Exception e)
+                    {
+                        owinContext.Response.StatusCode = 500;
+                        return owinContext.Response.WriteAsync(e.ToString());
+                    }
+                });
+            });
         }
     }
 }

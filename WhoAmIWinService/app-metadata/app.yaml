@@ -33,6 +33,7 @@ package:
             # doc: (Opcional) Linha de comando para remoção do serviço.
             uninstall-command: 'WhoAmIWinService.exe --uninstall'
             use-msdeploy: true
+            encrypt-file: 'WhoAmIWinService.exe.config'
             # doc: (Opcional) Arquivos a serem ignorados durante a instalação. Este Argumento é ignorado por padrão, para que ele tenha efeito o parâmetro "/skipfiles" deve ser 
             # doc: passado para o chocolatey. ex: choco install mypackage -packageParameters /skipfiles
          #   skip-files: '*.exe.config'
