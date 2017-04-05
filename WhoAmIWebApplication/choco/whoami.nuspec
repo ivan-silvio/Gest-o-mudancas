@@ -4,7 +4,7 @@
     <!-- About "id" tag: Use only lowercase letters, replace the spaces with the hyphen-minus character “-” (U+002D) or just omit them. Don’t use dots.-->
     <id>whoami</id>
     <title>Who Am I Web Load Balancer Tester</title>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <authors>buy4</authors>
     <owners>buy4</owners>
     <summary>Dumb whoami web app to test web load balancer.</summary>
