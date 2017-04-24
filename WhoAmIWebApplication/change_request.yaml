@@ -1,8 +1,8 @@
-Subject: 'Test change request (ignore this)'
+Subject: 'Test change request for deploy (ignore this)'
 Description: 'What changed?'
-RequesterEmail: 'cnatan@stone.com.br'
+RequesterEmail: 'qaas@stone.com.br'
 Impact: 'Low'
 Risk: 'Low'
 Priority: 'Low'
 ChangeType: 'Standard'
-GroupId: 4000269484
+GroupId: 4000107356
