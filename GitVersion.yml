@@ -1,3 +1,4 @@
+assembly-informational-format: '{MajorMinorPatch}'
 mode: ContinuousDelivery
 branches: {}
 ignore:

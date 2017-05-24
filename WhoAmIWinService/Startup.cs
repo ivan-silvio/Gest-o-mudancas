@@ -4,6 +4,7 @@ using System;
 using Dlp.Buy4.Infrastructure.Service.Owin;
 using Dlp.Buy4.Framework.Service.Owin;
 using System.Configuration;
+using Dlp.Buy4.Infrastructure.Logging;
 
 namespace WhoAmIWinService
 {
@@ -15,6 +16,8 @@ namespace WhoAmIWinService
         /// <param name="appBuilder">Owin application builder.</param>
         public void Configuration(IAppBuilder appBuilder)
         {
+            Logger.LogMessage("Initializing Owin Startup",LogSeverity.Info);
+
             string url = ConfigurationManager.AppSettings["ListenUrl"];
             appBuilder.AddListenUrl(url);
 
