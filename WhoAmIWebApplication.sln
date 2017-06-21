@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoAmIWebApplication", "WhoAmIWebApplication\WhoAmIWebApplication.csproj", "{E3FA27DB-FB72-4A2F-BCC2-2E2DE5A3F420}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoAmIWinService", "WhoAmIWinService\WhoAmIWinService.csproj", "{0F5B9DCA-BA47-410B-90F2-29421681B7FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{E3FA27DB-FB72-4A2F-BCC2-2E2DE5A3F420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3FA27DB-FB72-4A2F-BCC2-2E2DE5A3F420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3FA27DB-FB72-4A2F-BCC2-2E2DE5A3F420}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F5B9DCA-BA47-410B-90F2-29421681B7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F5B9DCA-BA47-410B-90F2-29421681B7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F5B9DCA-BA47-410B-90F2-29421681B7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F5B9DCA-BA47-410B-90F2-29421681B7FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
