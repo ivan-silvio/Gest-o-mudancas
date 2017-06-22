@@ -5,8 +5,8 @@ RequesterEmail: 'cnatan@stone.com.br'
 #Risk: 'Low'
 Priority: 'Low'
 ChangeType: 'Standard'
-PlannedStartDate: '2017-06-12T00:00:00'
-PlannedEndDate: '2017-06-12T23:59:00'
+PlannedStartDate: '2017-06-23T00:00:00'
+PlannedEndDate: '2017-06-23T23:59:00'
 TimeZoneId: 'Brazil/East'
 CustomFields:
   WasFunctionalTestExecuted: true
