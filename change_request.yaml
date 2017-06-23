@@ -5,15 +5,15 @@ RequesterEmail: 'iscruz@stone.com'
 #Risk: 'Low'
 Priority: 'Low'
 ChangeType: 'Standard'
-PlannedStartDate: '2017-06-23T00:13:50'
-PlannedEndDate: '2017-06-23T23:14:20'
+PlannedStartDate: '2017-06-23T20:00:50'
+PlannedEndDate: '2017-06-23T21:00:20'
 TimeZoneId: 'Brazil/East'
 CustomFields:
   WasFunctionalTestExecuted: true
-  TestDescription: 'Testes autom√°ticos GoCD'
+  TestDescription: 'Testes autom·ticos GoCD'
   PossibleImpact: 'Nenhum impacto mapeado'
   ChangeValidatorDepartment: 'change'
-  SystemName: Gest√£o teste
+  SystemName: Gest„o teste
   ChangeReason: Feature
   DeployPlan: GoCD automatic deploy
   RollbackPlan: GoCD automatic rollback
