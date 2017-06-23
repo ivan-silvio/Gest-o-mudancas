@@ -1,19 +1,19 @@
 Subject: 'Validando deploy GoCD'
 Description: 'Bumped whoami lb tester version'
-RequesterEmail: 'cnatan@stone.com.br'
+RequesterEmail: 'iscruz@stone.com.br'
 #Impact: 'Low'
 #Risk: 'Low'
 Priority: 'Low'
 ChangeType: 'Standard'
-PlannedStartDate: '2017-06-23T00:00:00'
-PlannedEndDate: '2017-06-23T23:59:00'
+PlannedStartDate: '2017-06-23T00:13:30'
+PlannedEndDate: '2017-06-23T23:14:30'
 TimeZoneId: 'Brazil/East'
 CustomFields:
   WasFunctionalTestExecuted: true
   TestDescription: 'Testes automáticos GoCD'
   PossibleImpact: 'Nenhum impacto mapeado'
   ChangeValidatorDepartment: 'Evolução Infra'
-  SystemName: CAB_CLI
+  SystemName: Gestão teste
   ChangeReason: Feature
   DeployPlan: GoCD automatic deploy
   RollbackPlan: GoCD automatic rollback
