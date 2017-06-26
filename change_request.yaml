@@ -11,13 +11,13 @@ TimeZoneId: 'Brazil/East'
 CustomFields:
   WasFunctionalTestExecuted: true
   TestDescription: 'Testes automáticos GoCD'
-  PossibleImpact: 'Nenhum impacto mapeado'
+  PossibleImpact: 'impacto mapeado'
   ChangeValidatorDepartment: 'change'
   SystemName: Gestão teste
-  ChangeReason: Feature
-  DeployPlan: GoCD automatic deploy
-  RollbackPlan: GoCD automatic rollback
-  ChangeValidatorName: cnatan@stone.com.br
+  ChangeReason: Feature de teste
+  DeployPlan: GoCD automatic deploy teste
+  RollbackPlan: GoCD automatic rollback teste
+  ChangeValidatorName: ocamargo@stone.com.br
   EmergencialChange: false
   CanAffectOtherSystems: false
   CanAffectCriticalSystems: false
