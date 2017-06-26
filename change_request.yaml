@@ -10,7 +10,7 @@ PlannedEndDate: '2017-06-26T23:59:59'
 TimeZoneId: 'Brazil/East'
 CustomFields:
   WasFunctionalTestExecuted: true
-  TestDescription: 'Testes automáticos GoCD'
+  TestDescription: 'Testes GoCD'
   PossibleImpact: 'impacto mapeado'
   ChangeValidatorDepartment: 'change'
   SystemName: Gestão teste
