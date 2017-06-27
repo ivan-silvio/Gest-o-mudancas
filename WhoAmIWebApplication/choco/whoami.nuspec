@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- About "id" tag: Use only lowercase letters, replace the spaces with the hyphen-minus character “-” (U+002D) or just omit them. Don’t use dots.-->
     <id>whoami-gestaomudanca</id>
     <title>Who Am I Web Load Balancer Tester</title>
     <version>1.1.0</version>
