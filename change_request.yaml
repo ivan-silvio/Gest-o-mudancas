@@ -1,11 +1,11 @@
-Subject: 'Validando o deploy GoCD'
+Subject: 'Validando deploy GoCD'
 Description: 'Bumped whoami lb tester version'
 RequesterEmail: 'iscruz@stone.com'
 #Impact: 'Low'
 #Risk: 'Low'
 Priority: 'Low'
 ChangeType: 'Standard'
-PlannedStartDate: '2017-06-27T00:00:01'
+PlannedStartDate: '2017-06-27T10:00:01'
 PlannedEndDate: '2017-06-27T23:59:59'
 TimeZoneId: 'Brazil/East'
 CustomFields:
@@ -17,7 +17,7 @@ CustomFields:
   ChangeReason: Feature
   DeployPlan: GoCD automatic deploy teste
   RollbackPlan: GoCD automatic rollback teste
-  ChangeValidatorName: ocamargo@stone.com.br
+  ChangeValidatorName: pferreirinha@stone.com.br
   EmergencialChange: false
   CanAffectOtherSystems: false
   CanAffectCriticalSystems: false
