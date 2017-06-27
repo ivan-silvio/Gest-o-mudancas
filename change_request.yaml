@@ -14,7 +14,7 @@ CustomFields:
   PossibleImpact: 'impacto mapeado'
   ChangeValidatorDepartment: 'change user'
   SystemName: Gestão teste
-  ChangeReason: 'Feature de teste'
+  ChangeReason: Feature
   DeployPlan: GoCD automatic deploy teste
   RollbackPlan: GoCD automatic rollback teste
   ChangeValidatorName: ocamargo@stone.com.br
