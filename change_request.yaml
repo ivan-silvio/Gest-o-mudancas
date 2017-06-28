@@ -5,7 +5,7 @@ RequesterEmail: 'iscruz@stone.com'
 #Risk: 'Low'
 Priority: 'Low'
 ChangeType: 'Standard'
-PlannedStartDate: '2017-06-28T00:00:01'
+PlannedStartDate: '2017-06-28T01:00:01'
 PlannedEndDate: '2017-06-28T23:59:59'
 TimeZoneId: 'Brazil/East'
 CustomFields:
