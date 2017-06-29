@@ -5,8 +5,8 @@ RequesterEmail: 'iscruz@stone.com'
 #Risk: 'Low'
 Priority: 'Low'
 ChangeType: 'Standard'
-PlannedStartDate: '2017-06-28T01:00:01'
-PlannedEndDate: '2017-06-28T23:59:59'
+PlannedStartDate: '2017-06-29T01:00:01'
+PlannedEndDate: '2017-06-29T23:59:59'
 TimeZoneId: 'Brazil/East'
 CustomFields:
   WasFunctionalTestExecuted: true
@@ -18,7 +18,7 @@ CustomFields:
   DeployPlan: GoCD automatic deploy teste
   RollbackPlan: GoCD automatic rollback teste
   ChangeValidatorName: pferreirinha@stone.com.br
-  EmergencialChange: true
+  EmergencialChange: false
   CanAffectOtherSystems: false
   CanAffectCriticalSystems: false
   WillAffectExternalCustomers: false
