@@ -20,6 +20,6 @@ CustomFields:
   ChangeValidatorName: pferreirinha@stone.com
   EmergencialChange: true
   CanAffectOtherSystems: true
-  CanAffectCriticalSystems: false
+  CanAffectCriticalSystems: true
   WillAffectExternalCustomers: false
   WillAffectInternalCustomers: false
