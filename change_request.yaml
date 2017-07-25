@@ -12,7 +12,7 @@ CustomFields:
   WasFunctionalTestExecuted: true
   TestDescription: 'Testes GoCD'
   PossibleImpact: 'impacto mapeado'
-  ChangeValidatorDepartment: 'change'
+  ChangeValidatorDepartment: 'changee'
   SystemName: Gestão-teste
   ChangeReason: Feature
   DeployPlan: GoCD automatic deploy teste
