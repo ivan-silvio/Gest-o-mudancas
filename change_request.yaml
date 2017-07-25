@@ -12,13 +12,13 @@ CustomFields:
   WasFunctionalTestExecuted: true
   TestDescription: 'Testes GoCD'
   PossibleImpact: 'impacto mapeado'
-  ChangeValidatorDepartment: 'change user'
+  ChangeValidatorDepartment: 'change'
   SystemName: Gestão-teste
   ChangeReason: Feature
   DeployPlan: GoCD automatic deploy teste
   RollbackPlan: GoCD automatic rollback teste
   ChangeValidatorName: pferreirinha@stone.com
-  EmergencialChange: false
+  EmergencialChange: true
   CanAffectOtherSystems: true
   CanAffectCriticalSystems: false
   WillAffectExternalCustomers: false
