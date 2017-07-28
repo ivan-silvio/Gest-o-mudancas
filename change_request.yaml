@@ -18,8 +18,8 @@ CustomFields:
   DeployPlan: GoCD automatic deploy teste
   RollbackPlan: GoCD automatic rollback teste
   ChangeValidatorName: pferreirinha@stone.com
-  EmergencialChange: true
-  CanAffectOtherSystems: true
+  EmergencialChange: false
+  CanAffectOtherSystems: false
   CanAffectCriticalSystems: true
   WillAffectExternalCustomers: false
   WillAffectInternalCustomers: false
