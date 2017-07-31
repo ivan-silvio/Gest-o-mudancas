@@ -23,3 +23,5 @@ CustomFields:
   CanAffectCriticalSystems: true
   WillAffectExternalCustomers: false
   WillAffectInternalCustomers: false
+  IsProductionEnvironment: false
+  ApplicationVersion: 1.0.9
